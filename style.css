@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+body {
+  background: rgb(68, 68, 120);
+}
+.container {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.heading h1 {
+  color: white;
+  font-size: 2rem;
+}
+.heading h1 span {
+  color: rgb(238, 79, 106);
+  text-decoration: none; /* Disable default underline */
+  border-bottom: 2px solid rgb(238, 79, 106); /* Create a transparent bottom border */
+  position: relative; /* Position relative for absolute positioning */
+}
+
+.box input {
+  margin-top: 5%;
+  height: 40px;
+  width: 50%;
+  font-size: medium;
+  outline: 0;
+}
+.box {
+  display: flex;
+}
+.icon {
+  margin-top: 5%;
+
+  background: rgb(238, 79, 106);
+  width: 8%;
+}
+.icon i {
+  margin-top: 22%;
+  margin-left: 30%;
+}
+.bottom {
+  display: flex;
+  background: rgb(238, 79, 106);
+  margin-top: 5%;
+
+  width: 32%;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.space2 {
+  margin-top: 1%;
+  margin-left: 5%;
+  color: white;
+}
+.space1 {
+  margin-top: 3%;
+  margin-left: 4%;
+  color: white;
+}
